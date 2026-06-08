@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <!-- Градусы -->
+        <EditText
+            android:id="@+id/editDegrees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Градусы"
+            android:inputType="numberDecimal"/>
+
+        <Button
+            android:id="@+id/buttonDegrees"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="РАССЧИТАТЬ"/>
+
+        <TextView
+            android:id="@+id/textRadians"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Радианы"
+            android:textSize="18sp"/>
+
+        <!-- Километры -->
+        <EditText
+            android:id="@+id/editKm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Километры"
+            android:inputType="numberDecimal"/>
+
+        <Button
+            android:id="@+id/buttonKm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="РАССЧИТАТЬ"/>
+
+        <TextView
+            android:id="@+id/textMiles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Мили"
+            android:textSize="18sp"/>
+
+        <!-- Метры -->
+        <EditText
+            android:id="@+id/editMeters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Метры"
+            android:inputType="numberDecimal"/>
+
+        <Button
+            android:id="@+id/buttonMeters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="РАССЧИТАТЬ"/>
+
+        <TextView
+            android:id="@+id/textFeet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Футы"
+            android:textSize="18sp"/>
+
+        <!-- Десятичное → Hex -->
+        <EditText
+            android:id="@+id/editHex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Десятичное"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/buttonHex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="РАССЧИТАТЬ"/>
+
+        <TextView
+            android:id="@+id/textHex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Шестнадцатеричное"
+            android:textSize="18sp"/>
+
+        <!-- Десятичное → Binary -->
+        <EditText
+            android:id="@+id/editBinary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Десятичное"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/buttonBinary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="РАССЧИТАТЬ"/>
+
+        <TextView
+            android:id="@+id/textBinary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Двоичное"
+            android:textSize="18sp"/>
+
+        <Button
+            android:id="@+id/buttonCalculator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="КАЛЬКУЛЯТОР"/>
+
+    </LinearLayout>
+
+</ScrollView>
